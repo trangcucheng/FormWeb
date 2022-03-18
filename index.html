@@ -1,0 +1,319 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Kiểm tra mức độ phản ứng của Vắc xin</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="img-container"><img src="./Capture.PNG"></div>
+    <form action="/index.html">
+
+      <div class="question-wrapper" id="form-heading">
+            <p class="heading">Kiểm tra mức độ phản ứng của Vắc xin</p>
+            <p>Cảm ơn bạn đã tham gia khảo sát của Bộ Y tế<br><br>    
+      </div>
+
+      <!-- get name -->
+      <div class="question-wrapper">
+        <div class="question">
+          <p>Tên<span class="required">*</span></p>
+        </div>
+        <input
+        autocomplete="off"
+          class="name"
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Câu trả lời của bạn"
+          required
+          style="margin: 0"
+        />
+      </div>
+
+      <!-- get phone number -->
+      <div class="question-wrapper">
+        <div class="question">
+          <p>Số điện thoại</p>
+        </div>
+        <input
+        autocomplete="off"
+          class="phone_number"
+          id="phone_number"
+          type="text"
+          name="phone_number"
+          placeholder="Câu trả lời của bạn"
+          required
+          style="margin: 0"
+        />
+      </div>
+      
+      <!-- first question  -->
+      <div class="question-wrapper">
+        <div class="question">
+          <p>Bạn đã tiêm bao nhiêu liều Vắc xin Covid-19? <span class="required">*</span></p>
+        </div>
+        <div class="options-wrapper">
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_1_option_1"
+            type="radio"
+            name="ques_1"
+            >
+            <label for="ques_1_option_1">Tôi chưa từng tiêm Vắc xin Covid-19</label>
+          </div>
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_1_option_2"
+            type="radio"
+            name="ques_1"
+            >
+            <label for="ques_1_option_2">Tôi đã tiêm 1 mũi Vắc xin Covid-19</label>
+          </div>
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_1_option_3"
+            type="radio"
+            name="ques_1"
+            >
+            <label for="ques_1_option_3">Tôi đã tiêm 2 mũi Vắc xin Covid-19</label>
+          </div>
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_1_option_4"
+            type="radio"
+            name="ques_1"
+            >
+            <label for="ques_1_option_4">Tôi đã tiêm 3 mũi Vắc xin Covid-19</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- second question  -->
+      <div class="question-wrapper">
+        <div class="question">
+          <p>Bạn đã tiêm vắc xin của các hãng nào?</p>
+        </div>
+        <div class="options-wrapper">
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_2_option_1"
+            type="checkbox"
+            name="ques_2"
+            >
+            <label for="ques_2_option_1">AstraZeneca</label>
+          </div>
+
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_2_option_2"
+            type="checkbox"
+            name="ques_2_option_2"
+            >
+            <label for="ques_2_option_2">Pfizer/BioNTech</label>
+          </div>
+
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_2_option_3"
+            type="checkbox"
+            name="ques_2"
+            >
+            <label for="ques_2_option_3">Spikevax (Tên khác là Moderna)</label>
+          </div>
+          
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_2_option_4"
+            type="checkbox"
+            name="ques_2"
+            >
+            <label for="ques_2_option_4">Gam-COVID-Vac (tên khác là SPUTNIK V)</label>
+          </div>
+
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_2_option_5"
+            type="checkbox"
+            name="ques_2"
+            >
+            <label for="ques_2_option_5">Vero Cell</label>
+          </div>
+
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_2_option_6"
+            type="checkbox"
+            name="ques_2"
+            >
+            <label for="ques_2_option_6">Janssen</label>
+          </div>
+
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_2_option_7"
+            type="checkbox"
+            name="ques_2"
+            >
+            <label for="ques_2_option_7">Hayat-Vax</label>
+          </div>
+
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_2_option_8"
+            type="checkbox"
+            name="ques_2"
+            >
+            <label for="ques_2_option_8">Abdala</label>
+          </div>
+          
+
+        </div>
+      </div>
+    
+
+      <!-- third question -->
+      <div class="question-wrapper">
+        <div class="question">
+          <p>Phản ứng của bạn sau khi tiêm?</p>
+        </div>
+        <div class="options-wrapper">
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_3_option_1"
+            type="checkbox"
+            name="ques_3"
+            >
+            <label for="ques_3_option_1">Đau chỗ tiêm</label>
+          </div>
+
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_3_option_2"
+            type="checkbox"
+            name="ques_3"
+            >
+            <label for="ques_3_option_2">Đau cơ những vùng khác</label>
+          </div>
+
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_3_option_3"
+            type="checkbox"
+            name="ques_3"
+            >
+            <label for="ques_3_option_3">Sốt trên 38 độ</label>
+          </div>
+          
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_3_option_4"
+            type="checkbox"
+            name="ques_3"
+            >
+            <label for="ques_3_option_4">Mất vị giác</label>
+          </div>
+
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_3_option_5"
+            type="checkbox"
+            name="ques_3"
+            >
+            <label for="ques_3_option_5">Mất vị giác</label>
+          </div>
+
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_3_option_6"
+            type="checkbox"
+            name="ques_3"
+            >
+            <label for="ques_3_option_6">Mệt mỏi</label>
+          </div>
+
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_3_option_7"
+            type="checkbox"
+            name="ques_3"
+            >
+            <label for="ques_3_option_7">Chóng mặt</label>
+          </div>
+          
+
+        </div>
+      </div>
+
+      <!-- forth question -->
+      <div class="question-wrapper">
+        <div class="question">
+          <p>Bạn có tin tưởng vào hiệu quả của Vắc xin ? <span class="required">*</span></p>
+        </div>
+        <div class="options-wrapper">
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_4_option_1"
+            type="radio"
+            name="ques_4"
+            >
+            <label for="ques_4_option_1">Tôi hoàn toàn tin tưởng</label>
+          </div>
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_4_option_2"
+            type="radio"
+            name="ques_4"
+            >
+            <label for="ques_4_option_2">Tôi không hoàn toàn tin tưởng</label>
+          </div>
+          <div class="answers">
+            <input 
+            class="option"
+            id="ques_4_option_3"
+            type="radio"
+            name="ques_4"
+            >
+            <label for="ques_4_option_3">Tôi không tin tưởng</label>
+          </div>
+        </div>
+      </div>
+    
+
+      <input id="btn" onclick="storage()" type="submit" value="Gửi">
+      <p id="clearAll">Xóa hết câu trả lời</p>
+      <div style="clear: both"></div>
+      <br><br>
+    </form>
+    <script src="/index.js"></script>
+  </body>
+</html>

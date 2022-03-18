@@ -1,0 +1,162 @@
+html,
+body {
+  margin: auto;
+  padding: auto;
+  background-color: #e3edfd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: auto;
+  border-radius: 10px;
+}
+
+.main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 0;
+  padding-left: -15px;
+  padding-right: -15px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  width: 70%;
+}
+
+#form-heading{
+  border-top: 10px solid#277818;
+}
+
+.heading {
+  font-weight: 0;
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+form {
+  display: inline-table;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 70%;
+}
+input {
+  padding: 12px 0px;
+  margin: 12px;
+}
+
+input.option{
+  transform: scale(1.5);
+}
+label {
+  /* margin-left: 5%;
+  margin: 5%;  */
+  font-weight: 300;
+}
+#name,
+#phone_number
+{
+  border: none;
+  width: 50%;
+  border-bottom: 0.5px solid gray;
+  outline: none;
+}
+#btn {
+  background-color: #277818;
+  color: #fff;
+  font-weight: 550;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: -1;
+  width: 50px;
+}
+
+#btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+#institute {
+  border: none;
+}
+label {
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+}
+select {
+  width: 50%;
+  border-radius: 2px;
+}
+
+select {
+  padding: 10px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    width:80%;
+  }
+  form {
+    width: 80%;
+  }
+}
+
+
+header{
+  margin: auto;
+  width: 80%;
+}
+
+.question-wrapper{
+  margin-bottom: 15px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.main,
+form{
+  width: 80%;
+  /* padding: 15px; */
+  border-radius: 7px;
+  color: black;
+}
+
+form{
+  margin-bottom: 30px;
+}
+
+.main{
+  background-color: #fff;
+}
+
+.img-container{
+  width: 80%;
+  margin: auto;
+}
+
+.required{
+  color: red;
+  padding-left: 3px;
+}
+
+#clearAll{
+  float: right; 
+  color: #277818;
+  font-size: 14px;
+}
+
+#clearAll:hover{
+  cursor: pointer;
+}
